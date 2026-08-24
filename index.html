@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>MS Home Decor — Premium Home Décor</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- HEADER -->
+    <!-- ============================================================ -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <div class="header-logo">
+                <a href="#" aria-label="MS Home Decor Home">
+                    <img src="c6.jpeg" alt="MS Home Decor Logo" class="logo-img" />
+                </a>
+            </div>
+            <nav class="header-nav" id="mainNav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#shop-all" class="nav-link">Shop</a></li>
+                    <li><a href="#collections" class="nav-link">Collections</a></li>
+                    <li><a href="#new-arrivals" class="nav-link">New Arrivals</a></li>
+                    <li><a href="#best-sellers" class="nav-link">Best Sellers</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="header-icon search-toggle" id="searchToggle" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="header-icon wishlist-toggle" id="wishlistToggle" aria-label="Wishlist">
+                    <i class="far fa-heart"></i>
+                    <span class="badge-count wishlist-count" id="wishlistCount">0</span>
+                </button>
+                <button class="header-icon account-toggle" id="accountToggle" aria-label="Account">
+                    <i class="far fa-user"></i>
+                </button>
+                <button class="header-icon cart-toggle" id="cartToggle" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="badge-count cart-count" id="cartCount">0</span>
+                </button>
+                <button class="header-icon hamburger-toggle" id="hamburgerToggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+            <div class="mobile-menu-inner">
+                <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="mobile-nav-list">
+                    <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+                    <li><a href="#shop-all" class="mobile-nav-link">Shop</a></li>
+                    <li><a href="#collections" class="mobile-nav-link">Collections</a></li>
+                    <li><a href="#new-arrivals" class="mobile-nav-link">New Arrivals</a></li>
+                    <li><a href="#best-sellers" class="mobile-nav-link">Best Sellers</a></li>
+                    <li><a href="#about" class="mobile-nav-link">About</a></li>
+                    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-actions">
+                    <button class="mobile-action-btn" id="mobileWishlistBtn"><i class="far fa-heart"></i> Wishlist</button>
+                    <button class="mobile-action-btn" id="mobileAccountBtn"><i class="far fa-user"></i> Account</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- MAIN CONTENT -->
+    <!-- ============================================================ -->
+    <main>
+
+        <!-- ========================================================== -->
+        <!-- HERO SECTION -->
+        <!-- ========================================================== -->
+        <section class="hero-section" id="hero">
+            <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=1600&q=80');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <span class="hero-eyebrow">MS HOME DECOR</span>
+                    <h1 class="hero-heading">Classic Pieces.<br />Timeless Spaces.</h1>
+                    <p class="hero-description">
+                        Curated home décor designed to bring character, elegance and personality to every space.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#shop-all" class="btn btn-primary">Shop Collection</a>
+                        <a href="#new-arrivals" class="btn btn-secondary">Explore New Arrivals</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- BRAND INTRODUCTION -->
+        <!-- ========================================================== -->
+        <section class="brand-intro section-padding">
+            <div class="container">
+                <div class="brand-intro-grid">
+                    <div class="brand-intro-text">
+                        <span class="section-tag">About</span>
+                        <h2 class="section-heading">Designed for Beautiful Living</h2>
+                        <p class="section-subheading">
+                            We believe the right details can transform an ordinary space into something truly personal.
+                            Every piece in our collection is chosen with an eye for quality, proportion, and enduring style.
+                        </p>
+                        <a href="#about" class="btn-text">Discover Our Story <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="brand-intro-image">
+                        <img src="1.png" alt="Beautiful interior with MS Home Decor pieces" loading="lazy" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- ALL PRODUCTS (Home) — shows 8 products + Show All button -->
+        <!-- ========================================================== -->
+        <section class="section-padding shop-all-home" id="shop-all">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">All Products</span>
+                    <h2 class="section-heading">Shop All</h2>
+                    <p class="section-subheading">Discover our complete collection of premium home décor.</p>
+                </div>
+
+                <!-- Product Grid (8 items) -->
+                <div class="product-grid" id="shopAllGrid">
+                    <!-- Rendered by JS -->
+                </div>
+
+                <div class="shop-all-results" id="shopAllResults"></div>
+
+                <!-- Show All Products Button -->
+                <div class="section-footer">
+                    <button type="button" class="btn btn-primary" id="showAllProductsBtn">
+                        Show All Products <i class="fas fa-arrow-right" style="margin-left:0.5rem;"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- ALL PRODUCTS PAGE (Overlay / Modal) -->
+        <!-- ========================================================== -->
+        <div class="all-products-overlay" id="allProductsOverlay" role="dialog" aria-modal="true" aria-label="All Products">
+            <div class="container">
+                <div class="all-products-header">
+                    <h2>All Products</h2>
+                    <button class="close-all-products" id="closeAllProducts" aria-label="Close all products view">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <!-- Filters & Sorting -->
+                <div class="shop-all-filters" id="allProductsFilters">
+                    <!-- Rendered by JS -->
+                </div>
+
+                <!-- Product Grid -->
+                <div class="product-grid" id="allProductsGrid">
+                    <!-- Rendered by JS -->
+                </div>
+
+                <div class="shop-all-results" id="allProductsResults"></div>
+            </div>
+        </div>
+
+        <!-- ========================================================== -->
+        <!-- NEW ARRIVALS -->
+        <!-- ========================================================== -->
+        <section class="new-arrivals section-padding" id="new-arrivals">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Fresh Finds</span>
+                    <h2 class="section-heading">New Arrivals</h2>
+                    <p class="section-subheading">Fresh pieces for beautiful spaces.</p>
+                </div>
+                <div class="product-grid" id="newArrivalsGrid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- FEATURED COLLECTION -->
+        <!-- ========================================================== -->
+        <section class="featured-collection section-padding" id="collections">
+            <div class="container">
+                <div class="featured-grid">
+                    <div class="featured-content">
+                        <span class="section-tag">Collection</span>
+                        <h2 class="section-heading">The Classic Collection</h2>
+                        <p class="section-subheading">
+                            Timeless forms, refined details and pieces designed to remain beautiful through every season.
+                        </p>
+                        <a href="#shop-all" class="btn btn-primary">Explore Collection</a>
+                    </div>
+                    <div class="featured-image-grid">
+                        <div class="featured-main-image">
+                            <img src="1.png" alt="Classic Collection living room" loading="lazy" />
+                        </div>
+                        <div class="featured-thumb-grid">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Classic vase" loading="lazy" />
+                            <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=400&q=80" alt="Classic table decor" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- SHOP THE LOOK -->
+        <!-- ========================================================== -->
+        <section class="shop-the-look section-padding" id="shopTheLook">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Inspiration</span>
+                    <h2 class="section-heading">Shop the Look</h2>
+                    <p class="section-subheading">Bring the entire aesthetic together.</p>
+                </div>
+                <div class="look-container" id="lookContainer">
+                    <div class="look-image-wrapper">
+                        <img src="1.png" alt="Styled interior with decor items" class="look-image" />
+                        <div class="look-hotspots" id="lookHotspots"></div>
+                    </div>
+                    <div class="look-products" id="lookProducts">
+                        <!-- Rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- BEST SELLERS -->
+        <!-- ========================================================== -->
+        <section class="best-sellers section-padding" id="best-sellers">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Popular</span>
+                    <h2 class="section-heading">Customer Favorites</h2>
+                    <p class="section-subheading">Loved by our community — timeless pieces that never go out of style.</p>
+                </div>
+                <div class="product-grid" id="bestSellersGrid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- PROMOTIONAL BANNER -->
+        <!-- ========================================================== -->
+        <section class="promo-banner section-padding">
+            <div class="promo-banner-inner" style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80');">
+                <div class="promo-overlay"></div>
+                <div class="promo-content">
+                    <span class="promo-tag">Elevate Your Space</span>
+                    <h2 class="promo-heading">Elevate Your Everyday Space</h2>
+                    <p class="promo-text">Discover décor that makes your home feel more like you.</p>
+                    <a href="#shop-all" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- ========================================================== -->
+        <!-- ABOUT SECTION -->
+        <!-- ========================================================== -->
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="1.png" alt="MS Home Decor brand story" loading="lazy" />
+                    </div>
+                    <div class="about-content">
+                        <span class="section-tag">Our Story</span>
+                        <h2 class="section-heading">Timeless Design, Thoughtfully Curated</h2>
+                        <p class="about-text">
+                            MS Home Decor exists to help people create spaces that feel personal, beautiful and timeless.
+                            We believe that the objects we surround ourselves with shape the way we live — and that great
+                            design should be accessible without compromise.
+                        </p>
+                        <p class="about-text">
+                            Every piece in our collection is selected for its quality, proportion, and enduring aesthetic.
+                            From sculptural ceramics to refined table accents, we bring you décor that elevates the everyday.
+                        </p>
+                        <div class="about-values">
+                            <div class="about-value">
+                                <span class="value-icon"><i class="fas fa-gem"></i></span>
+                                <span class="value-label">Timeless Design</span>
+                            </div>
+                            <div class="about-value">
+                                <span class="value-icon"><i class="fas fa-leaf"></i></span>
+                                <span class="value-label">Thoughtfully Curated</span>
+                            </div>
+                            <div class="about-value">
+                                <span class="value-icon"><i class="fas fa-home"></i></span>
+                                <span class="value-label">Beautiful Living</span>
+                            </div>
+                            <div class="about-value">
+                                <span class="value-icon"><i class="fas fa-heart"></i></span>
+                                <span class="value-label">Customer First</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- CUSTOMER REVIEWS -->
+        <!-- ========================================================== -->
+        <section class="reviews-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Testimonials</span>
+                    <h2 class="section-heading">What Our Customers Say</h2>
+                </div>
+                <div class="reviews-grid" id="reviewsGrid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- INSTAGRAM / SOCIAL GALLERY -->
+        <!-- ========================================================== -->
+        <section class="social-gallery section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Follow Us</span>
+                    <h2 class="section-heading">Follow the MS Home Look</h2>
+                    <p class="section-subheading">
+                        <a href="#" class="social-handle"><i class="fab fa-instagram"></i> @MSHomeDecor</a>
+                    </p>
+                </div>
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- ========================================================== -->
+        <!-- NEWSLETTER -->
+        <!-- ========================================================== -->
+        <section class="newsletter-section section-padding">
+            <div class="container">
+                <div class="newsletter-inner">
+                    <div class="newsletter-content">
+                        <span class="section-tag">Subscribe</span>
+                        <h2 class="section-heading">Make Your Space More Beautiful</h2>
+                        <p class="newsletter-text">
+                            Be the first to discover new collections, styling inspiration and special offers.
+                        </p>
+                        <form class="newsletter-form" id="newsletterForm">
+                            <div class="form-group">
+                                <input type="email" class="form-input" id="newsletterEmail" placeholder="Enter your email address" required aria-label="Email address" />
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                            <div class="form-message" id="newsletterMessage"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================== -->
+        <!-- CONTACT SECTION -->
+        <!-- ========================================================== -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-heading">Contact Us</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+880123456789" class="contact-link">+8801764506685</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <span class="contact-label">WhatsApp</span>
+                                <a href="https://wa.me/880123456789" class="contact-link">+8801764-506685</a>
+                            </div>
+                        </div>
+                    
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-text">Dhaka, Bangladesh</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <span class="contact-label">Opening Hours</span>
+                                <span class="contact-text">Sat–Thu: 10:00 AM – 8:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName" class="sr-only">Name</label>
+                                    <input type="text" class="form-input" id="contactName" placeholder="Your Name" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactEmail" class="sr-only">Email</label>
+                                    <input type="email" class="form-input" id="contactEmail" placeholder="Your Email" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone" class="sr-only">Phone</label>
+                                <input type="tel" class="form-input" id="contactPhone" placeholder="Your Phone (optional)" />
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage" class="sr-only">Message</label>
+                                <textarea class="form-textarea" id="contactMessage" placeholder="Your Message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <div class="form-message" id="contactMessageStatus"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="c6.jpeg" alt="MS Home Decor Logo" class="footer-logo" />
+                    <p>Curated home décor designed to bring character, elegance and personality to every space.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#shop-all">All Products</a></li>
+                        <li><a href="#new-arrivals">New Arrivals</a></li>
+                        <li><a href="#best-sellers">Best Sellers</a></li>
+                        <li><a href="#collectionsShowcase">Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping &amp; Delivery</a></li>
+                        <li><a href="#">Returns &amp; Exchange</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#journal">Journal</a></li>
+                    </ul>
+                </div>
+            </div>
+         <div class="footer-bottom">
+    <p>
+        &copy; 2026 MS Home Decor. All Rights Reserved. 
+        Developed by 
+        <a href="https://ventureit.tech" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           style="color: #00b4d8 !important; 
+                  text-decoration: underline !important; 
+                  font-weight: bold !important; 
+                  position: relative; 
+                  z-index: 99999 !important; 
+                  cursor: pointer !important;">
+            Venture IT
+        </a>
+    </p>
+</div>
+
+    <!-- ============================================================ -->
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <!-- ============================================================ -->
+    <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Mobile bottom navigation">
+        <a href="#hero" class="bottom-nav-link active"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="#shop-all" class="bottom-nav-link"><i class="fas fa-th-large"></i><span>Shop</span></a>
+        <button class="bottom-nav-link search-toggle" id="bottomSearchToggle"><i class="fas fa-search"></i><span>Search</span></button>
+        <button class="bottom-nav-link wishlist-toggle" id="bottomWishlistToggle"><i class="far fa-heart"></i><span>Wishlist</span></button>
+        <button class="bottom-nav-link cart-toggle" id="bottomCartToggle"><i class="fas fa-shopping-bag"></i><span>Cart</span></button>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- MODALS & DRAWERS -->
+    <!-- ============================================================ -->
+
+    <!-- QUICK VIEW MODAL -->
+    <div class="modal-overlay" id="quickViewModal" role="dialog" aria-modal="true" aria-label="Product quick view">
+        <div class="modal-content quick-view-content">
+            <button class="modal-close" id="quickViewClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="quick-view-body" id="quickViewBody">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CART DRAWER -->
+    <div class="cart-drawer-overlay" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+        <div class="cart-drawer">
+            <div class="cart-drawer-header">
+                <h3>Your Cart</h3>
+                <button class="cart-drawer-close" id="cartDrawerClose" aria-label="Close cart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-drawer-body" id="cartDrawerBody">
+                <!-- Rendered by JS -->
+            </div>
+            <div class="cart-drawer-footer" id="cartDrawerFooter">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- SEARCH OVERLAY -->
+    <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Search">
+        <div class="search-overlay-inner">
+            <button class="search-close" id="searchOverlayClose" aria-label="Close search"><i class="fas fa-times"></i></button>
+            <div class="search-box">
+                <i class="fas fa-search search-box-icon"></i>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search for products…" autofocus />
+                <button class="search-clear" id="searchClear" aria-label="Clear search"><i class="fas fa-times-circle"></i></button>
+            </div>
+            <div class="search-results" id="searchResults">
+                <!-- Rendered by JS -->
+            </div>
+            <div class="search-empty" id="searchEmpty">
+                <p>Type to start searching for beautiful décor.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- WISHLIST DRAWER -->
+    <div class="wishlist-drawer-overlay" id="wishlistDrawer" role="dialog" aria-modal="true" aria-label="Wishlist">
+        <div class="wishlist-drawer">
+            <div class="wishlist-drawer-header">
+                <h3>Your Wishlist</h3>
+                <button class="wishlist-drawer-close" id="wishlistDrawerClose" aria-label="Close wishlist"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="wishlist-drawer-body" id="wishlistDrawerBody">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ACCOUNT MODAL -->
+    <div class="modal-overlay" id="accountModal" role="dialog" aria-modal="true" aria-label="Account">
+        <div class="modal-content account-modal-content">
+            <button class="modal-close" id="accountModalClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="account-modal-body">
+                <h2>Welcome Back</h2>
+                <p>Sign in to access your wishlist, orders and more.</p>
+                <form id="accountForm">
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email address" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-input" placeholder="Password" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;">Sign In</button>
+                    <p style="margin-top:1rem;font-size:0.9rem;color:var(--text-muted);">Demo: use any credentials</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JOURNAL ARTICLE MODAL -->
+    <div class="modal-overlay" id="journalModal" role="dialog" aria-modal="true" aria-label="Journal article">
+        <div class="modal-content journal-modal-content">
+            <button class="modal-close" id="journalModalClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="journal-modal-body" id="journalModalBody">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CHECKOUT SUCCESS MODAL -->
+    <div class="modal-overlay" id="checkoutModal" role="dialog" aria-modal="true" aria-label="Checkout">
+        <div class="modal-content checkout-modal-content">
+            <button class="modal-close" id="checkoutModalClose" aria-label="Close"><i class="fas fa-times"></i></button>
+            <div class="checkout-modal-body">
+                <div class="checkout-success-icon"><i class="fas fa-check-circle"></i></div>
+                <h2>Order Placed!</h2>
+                <p>Thank you for your purchase. You'll receive a confirmation email shortly.</p>
+                <button class="btn btn-primary" id="checkoutModalContinue">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SCRIPTS -->
+    <!-- ============================================================ -->
+    <script src="script.js"></script>
+
+</body>
+</html>
