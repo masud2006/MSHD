@@ -1,176 +1,244 @@
-# 🧾 Deshi Kitchen Billing System – Automated Bill Invoice Generator
+# 🏛️ MS Home Decor – Classic & Modern Home Decor Store
 
-A fast, lightweight, and fully responsive automated billing and invoice generation system designed specifically for restaurants, cafés, food courts, and takeaway businesses.
+A premium, responsive e-commerce website and automated business system designed for home décor businesses selling classic sculptures, modern sculptures, decorative pieces, and lifestyle products.
 
-The **Deshi Kitchen Billing System** helps businesses generate professional invoices within seconds while reducing manual work and billing errors.
+This system showcases products beautifully while helping customers explore collections, place orders, and connect with the business through a professional online storefront.
 
----
-
-## 🔗 Live Demo
-
+🔗 **Live Demo**
 👉 Website Preview:
+https://ms-home-decor-blue.vercel.app/
 
-https://your-demo-link.com/
-
-The live demo allows restaurant owners to experience the complete billing workflow before implementation.
+Viewing the live demo gives home décor business owners a clear idea of how their products can be presented through a premium online store.
 
 ---
 
-## 🎯 Who This System Is For
+## 🎯 Who This Website Is For
 
-✔ Restaurants
+✔ Home Décor Businesses
+✔ Sculpture & Art Stores
+✔ Interior Decoration Businesses
+✔ Furniture & Lifestyle Brands
+✔ Gift & Decorative Item Shops
+✔ Online Home Accessories Stores
 
-✔ Cafés & Coffee Shops
-
-✔ Fast Food Restaurants
-
-✔ Food Courts
-
-✔ Cloud Kitchens
-
-✔ Catering Services
-
-✔ Takeaway & Delivery Businesses
-
-If your business needs a simple, fast, and professional billing solution, this system is built for you.
+If you sell premium decorative products and want a professional online presence with an automated ordering system, this platform is built for you.
 
 ---
 
 ## 🚀 Key Features
 
-- Automated invoice generation
-- Professional restaurant bill design
-- Mobile-friendly responsive interface
-- Real-time subtotal calculation
-- Automatic VAT/Tax calculation
-- Discount support
-- Service charge support
-- Multiple menu item management
-- Quantity adjustment
-- Instant grand total calculation
-- Printable invoice
-- Customer information support
-- Restaurant branding with logo
-- Fast loading and lightweight
-- No database required (Static Version)
-- Easy customization
+✨ Premium modern & classic UI
+
+📱 Fully responsive — mobile, tablet & desktop
+
+🏛️ Classic & modern sculpture showcase
+
+🛋️ Home decoration product showcase
+
+🔎 Product search & browsing
+
+🏷️ Product categories
+
+🖼️ High-quality product image gallery
+
+📦 Product details & pricing
+
+🛒 Shopping cart functionality
+
+📝 Customer order system
+
+📞 Call & WhatsApp call-to-action buttons
+
+📍 Business location integration
+
+⚡ Fast-loading and optimized structure
+
+🔐 Secure and scalable system architecture
+
+📊 Automated order management
+
+---
+
+## 🤖 Automated System Features
+
+The system is designed to reduce manual work and make day-to-day order management easier.
+
+### Customer Side
+
+✔ Browse products
+
+✔ View product details
+
+✔ Add products to cart
+
+✔ Place orders
+
+✔ Submit customer information
+
+✔ Receive order confirmation
+
+### Admin Side
+
+✔ Add new products
+
+✔ Edit product information
+
+✔ Update prices
+
+✔ Manage product categories
+
+✔ Manage product images
+
+✔ View customer orders
+
+✔ Update order status
+
+✔ Manage inventory information
+
+✔ Track incoming orders
+
+The system can be further customized according to the business workflow.
 
 ---
 
 ## 🛠 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
+**Frontend**
 
-No frameworks required.
+HTML5
+CSS3
+JavaScript
 
-Lightweight, fast, and easy to deploy.
+**Backend / Automation**
 
----
+[Add backend technology]
 
-## 📦 What You Get
+**Database**
 
-When you choose this billing system from **Venture IT**, you will receive:
+[Add database technology]
 
-- Complete source code
-- Professional invoice design
-- Restaurant logo integration
-- Restaurant information customization
-- Menu customization
-- Color & branding customization
-- Mobile responsive design
-- Print-ready invoice
-- Deployment support (if required)
+Lightweight, responsive, scalable, and easy to customize according to business requirements.
 
 ---
 
-## ⚡ Benefits
+## 📦 What You Get When You Order
 
-- Save billing time
-- Reduce human errors
-- Professional customer invoices
-- Faster checkout process
-- Better customer experience
-- Easy to use
-- Works on desktop, tablet, and mobile devices
+When you choose this system from **Venture IT**, you will receive:
+
+✔ Complete website customization
+
+✔ Brand-matched design
+
+✔ Logo, colors & typography integration
+
+✔ Product category setup
+
+✔ Product upload & organization
+
+✔ Shopping cart functionality
+
+✔ Automated order management
+
+✔ WhatsApp & call integration
+
+✔ Google Maps integration
+
+✔ Basic SEO optimization
+
+✔ Mobile & desktop optimization
+
+✔ Domain & hosting support (if needed)
+
+✔ Basic system setup & deployment
 
 ---
 
-## 📱 Responsive Design
+## ⏱️ Delivery Time
 
-The system is fully optimized for:
+⏳ **7–14 working days**
 
-- 📱 Mobile Phones
-- 📲 Tablets
-- 💻 Laptops
-- 🖥 Desktop Computers
-
----
-
-## ⏱ Delivery Time
-
-⏳ 2–4 Working Days
-
-(Depending on customization requirements)
+Delivery time may vary depending on the number of products, pages, integrations, and customization requirements.
 
 ---
 
 ## 💰 Pricing
 
-💵 Affordable & flexible pricing.
+💵 **Affordable & flexible pricing**
 
-Final pricing depends on the required features and customization.
+Final cost depends on:
+
+• Number of products
+• Number of pages
+• E-commerce functionality
+• Admin dashboard requirements
+• Payment gateway
+• Automation requirements
+• Additional integrations
+
+Contact Venture IT for a customized quotation.
 
 ---
 
 ## 📞 Contact Us
 
-**Venture IT**
+### Order This Website / System
 
-📲 Call / WhatsApp:
-+8801614362939
+📲 **Call or WhatsApp:** 01758742415
 
-🌐 Website:
-https://www.deshi-kitchen.com
-
-📧 Email:
-customer@deshi-kitchen.com
+If you are looking to sell sculptures and home décor products online, this system can be customized around your exact business requirements.
 
 ---
 
-## 🔄 Optional Add-ons
+## 🔄 Optional Add-Ons
 
-- Customer database
-- Order history
-- Sales dashboard
-- Daily sales reports
-- PDF invoice download
-- Email invoice
-- QR code on invoice
-- Inventory management
-- Kitchen Order Ticket (KOT)
-- Multi-user login
-- Role-based access
-- Online ordering integration
-- Payment gateway integration
-- Cloud backup
-- Analytics & reports
+The system can be extended with additional features such as:
+
+💳 Online payment gateway
+
+🚚 Delivery & shipping management
+
+📦 Advanced inventory management
+
+📊 Sales & revenue dashboard
+
+👥 Customer management system
+
+🎟️ Discount & coupon system
+
+❤️ Wishlist functionality
+
+⭐ Customer reviews & ratings
+
+📧 Automated email notifications
+
+📱 SMS/WhatsApp order notifications
+
+🔐 Customer accounts & login
+
+📈 Advanced SEO
+
+📊 Google Analytics integration
+
+🧾 Automated invoice generation
+
+💰 Cash-on-delivery management
 
 ---
 
 ## 👨‍💼 Developed By
 
-**Venture IT**
+### Venture IT
 
-Professional Web & Software Development Company
+**Professional Web & Software Development Company**
 
-We build business-focused software solutions that improve efficiency, reduce manual work, and help businesses grow.
+We build business-focused websites and automated systems designed to help businesses operate, sell, and grow online.
 
 ---
 
 ## 📄 License
 
-This project is developed for demonstration and commercial use.
+This project is developed for **showcase and commercial purposes**.
 
-Commercial redistribution or resale without permission from **Venture IT** is prohibited.
+The demo version is intended for presentation purposes only.
+
+Commercial use, redistribution, copying, or deployment of the system requires permission from **Venture IT**.
